@@ -17,7 +17,7 @@ public class CynusX1 {
 	public String mostrarMortal(String msj) {
 		return msj = "El nombre del mortal es : "+ ivan.Nombre+"\n"+
 				  "la estatura de los mortales son de :"+ivan.Estatura+"\n"+
-				  "su edad es: "+ivan.Edad+"años "+ " su color de "+ivan.Colorojos +"\n"+
+				  "su edad es: "+ivan.Edad+"aï¿½os "+ " su color de "+ivan.Colorojos +"\n"+
 				  "kunblacan los hizo con un alma: "+ivan.Alma+"\n"+
 				  "los mortales su mayoria de veces son: "+ivan.Comportamiento+"\n"+
 				  "Y sus construmbres son: "+ivan.Costumbres+"\n"+
@@ -34,7 +34,7 @@ public class CynusX1 {
 	public String mostrarHeroe1(String msj) {
 		return msj= "El nombre del heroe es: "+k.Nombre+"\n"+
 	                "La estatura de un heroe es de: "+k.Estatura+"\n"+
-				    "vivian aproximadamente unos: "+k.Edad+"años"+"\n"+
+				    "vivian aproximadamente unos: "+k.Edad+"aï¿½os"+"\n"+
 	                "Su alma era: "+k.Alma+"\n"+
 				    "tenian sus ojos de color: "+k.Colorojos+"\n"+
 	                "Lo que caracterizaba a un heroe es por que: "+k.Valentia+"\n"+
@@ -45,18 +45,18 @@ public class CynusX1 {
 				    "su tecnica era "+k.detenerTiempo()+"\n"+
 	                "Los heores podian "+k.sentir()+"\n"+ 
 	                "ellos "+ k.volar()+"\n"+
-	                "por otro lado "+k.soñar() +"\n"+
+	                "por otro lado "+k.soniar() +"\n"+
 	                "es por eso que "+k.nutrirPoder();
 	}
 	
 	public String mostrarHeroe2(String msj) {
 		return msj = "El nombre del heroe es: "+As.Nombre+"\n"+
 				     "La estatura de un heroe es de: "+As.Estatura+"\n"+
-				     "vivian aproximadamente unos: "+As.Edad+"años"+"\n"+
+				     "vivian aproximadamente unos: "+As.Edad+"aï¿½os"+"\n"+
 				     "Su alma era: "+As.Alma+"\n"+
 				     "tenian sus ojos de color: "+As.Colorojos+"\n"+
 				     "Astar tenia un problema y es que sus fuerzas se estan hiyendo ya que hace"
-				     + "años no salva a nadie entonces "+As.Valentia+"\n"+
+				     + "aï¿½os no salva a nadie entonces "+As.Valentia+"\n"+
 				     "La codicia lo a "+As.Honestidad+"\n"+
 				     "Astar se a vuelto muy interesado por "+As.getInteres()+"\n"+
 				     "y a la hora de pelear "+As.getConfiados()+"\n"+
@@ -74,7 +74,7 @@ public class CynusX1 {
 				     "vivian aproximadamente unos: "+R.vivian+"\n"+
 	                 "Su alma era: "+R.Alma+"\n"+
 				     "tenian sus ojos de color: "+R.Colorojos+"\n"+
-	                 "la edad de Renk es de: "+R.Edad+ "años"+"\n"+
+	                 "la edad de Renk es de: "+R.Edad+ "aï¿½os"+"\n"+
 				     "los desterrados se caracterizaban por ser de otro color como"+R.colordepiel+"\n"+
 	                 "La cualidad que tenian los desterrados era que "+"\n"+
 				     R.getAnimal()+" es por eso que kublacan los despreciaba mucho no eran seres unicos asi que"+"\n"+

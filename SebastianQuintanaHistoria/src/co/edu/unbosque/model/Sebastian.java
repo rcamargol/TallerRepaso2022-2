@@ -3,7 +3,7 @@ package co.edu.unbosque.model;
 public class Sebastian extends Mortales{
 	
 	private String esfuerzo;
-	private String cariño;
+	private String cariÃ±o;
 	
 	public Sebastian() {
 		super.edad = 21;
@@ -13,7 +13,7 @@ public class Sebastian extends Mortales{
 		super.alma = true;
 		super.colordeojos = "Cafes";
 		this.esfuerzo = "maximo";
-		this.cariño = "solo a aquellos que lo merecen";
+		this.cariÃ±o = "solo a aquellos que lo merecen";
 	}
 
 	@Override
@@ -68,15 +68,15 @@ public class Sebastian extends Mortales{
 		this.esfuerzo = esfuerzo;
 	}
 
-	public String getCariño() {
-		return cariño;
+	public String getCariÃ±o() {
+		return cariÃ±o;
 	}
 
-	public void setCariño(String cariño) {
-		this.cariño = cariño;
+	public void setCariÃ±o(String cariÃ±o) {
+		this.cariÃ±o = cariÃ±o;
 	}
 	public String toString() {
-		return "Edad: " + edad + " años" + "\n" +
+		return "Edad: " + edad + " aï¿½os" + "\n" +
 				"Altura: " + estatura + " metros" + "\n" +
 				"Color de ojos: " + colordeojos + "\n"+
 				Habitar() + "\n"  +

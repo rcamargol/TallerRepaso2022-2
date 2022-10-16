@@ -20,7 +20,7 @@ public class CynusX1 {
 		else {
 			String msg = "Nombre: " + astar.getNombre() + " Edad: " + astar.getEdad() + " Estatura: " + astar.estatura + "m" + " Color de ojos: "+ astar.getColordeojos()+ "\n"+
 				     "Estado: " + astar.adquirirConocimientos()+"\n"+
-				      astar.contarHazañas()+"\n"+
+				      astar.contarHazaÃ±as()+"\n"+
 					  astar.contarElementosDominados() + "\n" +
 					 "Habilidades: "+"\n"+
 				      astar.crearFuego() + "\n"+
@@ -36,7 +36,7 @@ public class CynusX1 {
 		else {
 			String msg = "Nombre: " + kira.getNombre() + " Edad: " + kira.getEdad() + " Estatura: " + kira.estatura + "m" + " Color de ojos: "+ kira.getColordeojos()+ "\n"+
 			"Estado: " + kira.luchar()+"\n"+ 
-			kira.contarHazañas()+"\n"+
+			kira.contarHazaÃ±as()+"\n"+
 			kira.contarElementosDominados() + "\n" +
 			"Habilidades: "+"\n"+
 			kira.crearFuego() + "\n"+

@@ -1,6 +1,6 @@
 package co.edu.unbosque.model;
 
-public class Astar extends Héroe {
+public class Astar extends Heroe {
 
 	private int rescates;
 	private int enemigos;
@@ -35,7 +35,7 @@ public class Astar extends Héroe {
 
 	@Override
 	public String habitar() {
-		String msj = "Astar al ser catalogado como un HÉROE esta con los de su misma clase al norte del planeta.";
+		String msj = "Astar al ser catalogado como un Hï¿½ROE esta con los de su misma clase al norte del planeta.";
 		return msj;
 	}
 
@@ -46,15 +46,15 @@ public class Astar extends Héroe {
 	}
 	
 	public String imponerJusticia() {
-		String msj = "Astar a largo de su existencia ha tenido que disputar varias batllas. En promedio de un año Astar ha realizado "+this.rescates+" rescates"+"\n"+
+		String msj = "Astar a largo de su existencia ha tenido que disputar varias batllas. En promedio de un aï¿½o Astar ha realizado "+this.rescates+" rescates"+"\n"+
 	                 "    y ha enfrentado a "+this.enemigos+" enemigos.";
 		return msj;
 	}
 	
 	public void generarExcepcionEstaturaAstar() throws NoPareceEsoExeption {
-		// Aqui se evalua si la estatura de Astar es menor o supera a la estatura normal de un héroe  
+		// Aqui se evalua si la estatura de Astar es menor o supera a la estatura normal de un hï¿½roe  
 		if (super.estatura < 3 || super.estatura > 3) {
-			throw new NoPareceEsoExeption("parece ser que Astar no es un Héroe, su altura debe ser igual a 3 metros, y tiene "+super.estatura+" metros.");
+			throw new NoPareceEsoExeption("parece ser que Astar no es un Hï¿½roe, su altura debe ser igual a 3 metros, y tiene "+super.estatura+" metros.");
 		}
 		  
 		}
@@ -70,7 +70,7 @@ public class Astar extends Héroe {
 		return "*****ASTAR*****"+"\n"+"\n"+
                 "Acerca de Astar: "+"\n"+
 			    "-- Estatura: "+super.estatura+" metros. \n"+
-                "-- Edad: "+super.edad+" años. \n"+
+                "-- Edad: "+super.edad+" aï¿½os. \n"+
 			    "-- Color de ojos: "+super.colorOjos+".\n"+
 			    "-- Tipo de alma: "+super.alma+".\n"+
 			    "-- Habitad: "+habitar()+"\n"+

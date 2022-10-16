@@ -1,6 +1,6 @@
 package co.edu.unbosque.model;
 
-public abstract class Héroe extends KublaKan {
+public abstract class Heroe extends KublaKan {
 
 	protected int intervaloTiempo;
 	protected int tiempoVuelo;

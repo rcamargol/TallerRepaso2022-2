@@ -25,7 +25,7 @@ public class Astar extends Heroes {
 		// TODO Auto-generated method stub
 		return false;
 }
-	public String teletransportación() {
+	public String teletransportaciÃ³n() {
 		return null;
 	}
 	public String nadar() {

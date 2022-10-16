@@ -40,8 +40,8 @@ public class Kira extends Heroes{
 		return "detener el tiempo";
 	}
 	
-	public String soñar() {
-		return "ella sueña que sus enemigos la lastimaran";
+	public String soniar() {
+		return "ella sueï¿½a que sus enemigos la lastimaran";
 	}
 	public String nutrirPoder() {
 		return "kira por ser un heroe tiene que nutrir su poder metidando y horando a kublacan";

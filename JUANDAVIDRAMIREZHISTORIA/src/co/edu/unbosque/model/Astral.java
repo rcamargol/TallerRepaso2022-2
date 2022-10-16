@@ -1,6 +1,6 @@
 package co.edu.unbosque.model;
 
-public class Astral extends Héroes {
+public class Astral extends HÃ©roes {
 	private String supervelocidad;
 	private String espada;
 	
@@ -10,10 +10,10 @@ public class Astral extends Héroes {
 		super.alma= true;
 		super.colorojos= "gris";
 		super.estatura= 3.00;
-		super.Liderazgo="Este héroes tiene mucha personalidad a la hora de liderar";
-		super.Sabiduria="Este Héroe tiene mucha sabiduria gracias a sus padres";
-		this.supervelocidad="este héroe puede llegar a ser mas rapido que los aviones ";
-		this.espada="Este Héroe posse la espada de Bolivar";
+		super.Liderazgo="Este hï¿½roes tiene mucha personalidad a la hora de liderar";
+		super.Sabiduria="Este Hï¿½roe tiene mucha sabiduria gracias a sus padres";
+		this.supervelocidad="este hï¿½roe puede llegar a ser mas rapido que los aviones ";
+		this.espada="Este Hï¿½roe posse la espada de Bolivar";
 	}
 	
 	public String habitar() {

@@ -17,22 +17,22 @@ public class Controller {
 	public void funcionar(){
 		
 	
-		String menu = vista.seleccionarPersonaje("Selección");
+		String menu = vista.seleccionarPersonaje("Selecciï¿½n");
 		
-		if(menu == "Kira (Héroe)") {
-			vista.mostrarInformación(cynux.getKira().generarInformacionKira());
+		if(menu == "Kira (Hï¿½roe)") {
+			vista.mostrarInformacion(cynux.getKira().generarInformacionKira());
 		}
 		
-		if(menu == "Astar (Héroe)") {
-			vista.mostrarInformación(cynux.getAstar().generarInformacionAstar());
+		if(menu == "Astar (Hï¿½roe)") {
+			vista.mostrarInformacion(cynux.getAstar().generarInformacionAstar());
 		}
 		
 		if(menu == "Renk (Desterrado)") {
-			vista.mostrarInformación(cynux.getRenk().generarInformacionRenk());
+			vista.mostrarInformacion(cynux.getRenk().generarInformacionRenk());
 		}
 		
 		if(menu == "David (Mortal)") {
-			vista.mostrarInformación(cynux.getDavid().generarInformacionDavid());
+			vista.mostrarInformacion(cynux.getDavid().generarInformacionDavid());
 		}
 		
 		if (menu != null) {

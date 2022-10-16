@@ -1,7 +1,7 @@
 package co.edu.unbosque.model;
 
-public class kira extends Héroes {
-	private String rayosláser;
+public class kira extends HÃ©roes {
+	private String rayoslaser;
 	private String supersalto;
 
 	
@@ -11,10 +11,10 @@ public class kira extends Héroes {
 		super.alma= true;
 		super.colorojos= "naranja";
 		super.estatura= 3.00;
-		super.Liderazgo="Este héroes tiene mucha personalidad a la hora de liderar a sus compañeros de batalla";
+		super.Liderazgo="Este hï¿½roes tiene mucha personalidad a la hora de liderar a sus compaï¿½eros de batalla";
 		super.Sabiduria="Posee un iq muy eleveado ";
-		this.rayosláser="este héroe posee rayos láser";
-		this.supersalto="Este Héroe posse supersalto";
+		this.rayoslaser="este hï¿½roe posee rayos lï¿½ser";
+		this.supersalto="Este Hï¿½roe posse supersalto";
 		
 	}
 
@@ -23,11 +23,11 @@ public class kira extends Héroes {
 		return "Habitan en Norte del planeta";
 	}
 
-	public String getRayosláser() {
-		return rayosláser;
+	public String getRayoslaser() {
+		return rayoslaser;
 	}
-	public void setRayosláser(String rayosláser) {
-		this.rayosláser = rayosláser;
+	public void setRayoslaser(String rayoslaser) {
+		this.rayoslaser = rayoslaser;
 	}
 	public String getSupersalto() {
 		return supersalto;

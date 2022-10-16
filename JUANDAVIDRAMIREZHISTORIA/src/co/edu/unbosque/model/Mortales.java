@@ -2,10 +2,10 @@ package co.edu.unbosque.model;
 
 public abstract class Mortales extends KublaKan {
 	protected String Liderazgo ;
-	protected String cariñoso;
+	protected String cariÃ±oso;
 	
 	public Mortales() {
-		this.cariñoso = "";
+		this.cariÃ±oso = "";
 		this.Liderazgo  = "";
 	}
 

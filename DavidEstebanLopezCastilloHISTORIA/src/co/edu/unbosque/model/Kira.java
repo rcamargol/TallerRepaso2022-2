@@ -1,6 +1,6 @@
 package co.edu.unbosque.model;
 
-public class Kira extends Héroe{
+public class Kira extends Heroe{
 
 	private String arma;
 	private String ataque;
@@ -18,7 +18,7 @@ public class Kira extends Héroe{
 	
 	@Override
 	public String volar() {
-		String msj = "Kira tiene la habilidad de volar, pero debe saber usarlo, el tiempo limite para la acción es "+super.tiempoVuelo+" minutos.";
+		String msj = "Kira tiene la habilidad de volar, pero debe saber usarlo, el tiempo limite para la acciï¿½n es "+super.tiempoVuelo+" minutos.";
 		return msj;
 	}
 
@@ -36,7 +36,7 @@ public class Kira extends Héroe{
 
 	@Override
 	public String habitar() {
-		String msj = "Kira al ser catalogada como HÉROE esta con los de su misma clase al norte del planeta.";
+		String msj = "Kira al ser catalogada como Hï¿½ROE esta con los de su misma clase al norte del planeta.";
 		return msj;
 	}
 
@@ -52,9 +52,9 @@ public class Kira extends Héroe{
 	}
 	
 	public void generarExcepcionEstaturaKira() throws NoPareceEsoExeption {
-		// Aqui se evalua si la estatura de Kira es menor o supera a la estatura normal de un héroe  
+		// Aqui se evalua si la estatura de Kira es menor o supera a la estatura normal de un hï¿½roe  
 		if (super.estatura < 3 || super.estatura > 3) {
-			throw new NoPareceEsoExeption("parece ser que Kira no es una Héroe, su altura debe ser igual a 3 metros, y tiene "+super.estatura+" metros.");
+			throw new NoPareceEsoExeption("parece ser que Kira no es una Hï¿½roe, su altura debe ser igual a 3 metros, y tiene "+super.estatura+" metros.");
 		}
 		  
 		}
@@ -71,7 +71,7 @@ public class Kira extends Héroe{
 		return "*****KIRA*****"+"\n"+"\n"+
                 "Acerca de Kira: "+"\n"+
 			    "-- Estatura: "+super.estatura+" metros. \n"+
-                "-- Edad: "+super.edad+" años. \n"+
+                "-- Edad: "+super.edad+" aï¿½os. \n"+
 			    "-- Color de ojos: "+super.colorOjos+".\n"+
 			    "-- Tipo de alma: "+super.alma+".\n"+
 			    "-- Habitad: "+habitar()+"\n"+"\n"+

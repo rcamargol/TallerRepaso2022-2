@@ -1,10 +1,10 @@
 package co.edu.unbosque.model;
 
-public abstract class Héroes extends KublaKan {
+public abstract class HÃ©roes extends KublaKan {
 	protected String Liderazgo ;
 	protected String Sabiduria;
 	
-	public Héroes() {
+	public HÃ©roes() {
 		this.Sabiduria = "";
 		this.Liderazgo  = "";
 	}

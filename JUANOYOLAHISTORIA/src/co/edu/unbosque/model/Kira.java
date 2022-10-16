@@ -3,7 +3,7 @@ package co.edu.unbosque.model;
 public class Kira extends Heroe{
 	
 	private String nombre;
-	private int nhazañas;
+	private int nhazaÃ±as;
 	private int nelementosdominados;
 	
 	public Kira() {
@@ -11,13 +11,13 @@ public class Kira extends Heroe{
 		super.edad = 20;
 		super.colordeojos = "azules";
 		this.nombre = "Kira";
-		this.nhazañas = 20;
+		this.nhazaÃ±as = 20;
 		this.nelementosdominados = 5;
 		
 	}
 	
-	public String contarHazañas() {
-		return "He realizado " + this.nhazañas + " hazañas en mi vida";
+	public String contarHazaÃ±as() {
+		return "He realizado " + this.nhazaÃ±as + " hazaï¿½as en mi vida";
 	}
 	public String contarElementosDominados() {
 		return "He dominado un total de " + this.nelementosdominados + " elementos";
@@ -32,12 +32,12 @@ public class Kira extends Heroe{
 		this.nombre = nombre;
 	}
 
-	public int getNhazañas() {
-		return nhazañas;
+	public int getNhazaÃ±as() {
+		return nhazaÃ±as;
 	}
 
-	public void setNhazañas(int nhazañas) {
-		this.nhazañas = nhazañas;
+	public void setNhazaÃ±as(int nhazaÃ±as) {
+		this.nhazaÃ±as = nhazaÃ±as;
 	}
 
 	public int getNelementosdominados() {

@@ -9,7 +9,7 @@ public class Renk extends Desterrados{
 		super.estatura = 1.55;
 		super.colordeojos = "azules";
 		super.alma = "falsa";
-		super.añosdevida = 1500;
+		super.anosdevida = 1500;
 		super.rangodetristeza = 10;
 		this.contextura = "Gorda";
 		this.expresionafectiva = "Negativa";
@@ -61,7 +61,7 @@ public class Renk extends Desterrados{
 	public String recomendarSegunContextura() throws ContexturaException{
 		
 		if (this.contextura == "Flaca") {
-			throw new ContexturaException("Hay que comer mas, ¡PILAS!");
+			throw new ContexturaException("Hay que comer mas, ï¿½PILAS!");
 		}
 		
 		else if (this.contextura == "Gorda") {
@@ -80,7 +80,7 @@ public class Renk extends Desterrados{
 				"La estatura es: " + super.estatura + " metros\n"+
 				"El color de ojos es: " + super.colordeojos +"\n"+
 				"El alma es: " + super.alma + "\n"+
-				"Vive: " + super.añosdevida +" años\n"+
+				"Vive: " + super.anosdevida +" aï¿½os\n"+
 				"El rango de tristeza del 1 a 10 es: " + super.rangodetristeza + "\n"+
 				"La contextura de su cuerpo es: " + this.contextura +"\n"+
 				"Por su tristeza la expresion afectiva es: " + this.expresionafectiva +"\n"+

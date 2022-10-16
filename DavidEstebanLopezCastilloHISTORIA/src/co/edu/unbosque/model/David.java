@@ -11,14 +11,14 @@ public class David extends Mortal{
 		super.colorOjos= "Violeta";
 		super.alma= "Justa";
 		super.integrantesFamilia= 4;
-		super.profesión= "Ingeniero de sistemas";
+		super.profesion= "Ingeniero de sistemas";
 		this.alergia= "Ninguna";
 		this.hobby= "ver competencias automovilisticas";
 	}
 
 	@Override
 	public String adquirirConocimientos() {
-		String msj = "David para poder aprender sobre su profesion tuvo que especializarse en el conocimiento matematico y desarrollar su lógica";
+		String msj = "David para poder aprender sobre su profesion tuvo que especializarse en el conocimiento matematico y desarrollar su lï¿½gica";
 		return msj;
 	}
 
@@ -29,8 +29,8 @@ public class David extends Mortal{
 	}
 
 	@Override
-	public String ejercerUnaProfesión() {
-	    String msj = "David a sus 17 años decidio que su profesion estaba en ser "+super.profesión;
+	public String ejercerUnaProfesion() {
+	    String msj = "David a sus 17 aï¿½os decidio que su profesion estaba en ser "+super.profesion;
 		return msj;
 	}
 
@@ -47,7 +47,7 @@ public class David extends Mortal{
 	}
 	
 	public String tenerGustos() {
-		String msj = "David a pesar de haber escogido su profesion, tiene otro tipo de intereses como "+this.hobby+" debido a que su sueño frustrado era ser piloto profesional";
+		String msj = "David a pesar de haber escogido su profesion, tiene otro tipo de intereses como "+this.hobby+" debido a que su sueï¿½o frustrado era ser piloto profesional";
 		return msj;
 	}
 	
@@ -55,12 +55,12 @@ public class David extends Mortal{
 		String inf = "*****DAVID*****"+"\n"+"\n"+
                      "Acerca de David: "+"\n"+
 			         "-- Estatura: "+super.estatura+" metros. \n"+
-                     "-- Edad: "+super.edad+" años. \n"+
+                     "-- Edad: "+super.edad+" aï¿½os. \n"+
 			         "-- Color de ojos: "+super.colorOjos+".\n"+
 			         "-- Tipo de alma: "+super.alma+".\n"+
 			         "-- Familia: "+tenerUnaFamilia()+".\n"+
 			         "-- Habitad: "+habitar()+".\n"+
-			         "-- Profesion: "+ejercerUnaProfesión()+".\n"+
+			         "-- Profesion: "+ejercerUnaProfesion()+".\n"+
 			         "-- Alegias: "+this.alergia+".\n"+
 			         "-- Gustos: "+tenerGustos()+".\n"+
 			         "-- Conocimientos: "+adquirirConocimientos()+".\n"+"\n"+

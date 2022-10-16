@@ -13,15 +13,15 @@ public class Astar extends Heroes{
 		poderEspecial = "Predecir el futuro";
 		alma = true;
 		this.arma = "Usa una Espada gancho ceremonial";
-		this.tipo = "Espadachín";
+		this.tipo = "Espadachï¿½n";
 	}
 	public String entrenar() {
 		return "todos los dias.";
 		
 	}
 	
-	public String enseñar() {
-		return "Enseña a pelear a la nueva generacion de heroes.";
+	public String enseÃ±ar() {
+		return "Enseï¿½a a pelear a la nueva generacion de heroes.";
 		
 	}
 	@Override
@@ -52,10 +52,10 @@ public class Astar extends Heroes{
 	}
 	
 	public String Astar() {
-		return "Nombre: Astar" +"\n"+ "Edad: " + "4560" +" años." + "\n" + "Estatura: " + estatura + "\n" + "Color de ojos: "+ colorDeOjos + "\n"
+		return "Nombre: Astar" +"\n"+ "Edad: " + "4560" +" aï¿½os." + "\n" + "Estatura: " + estatura + "\n" + "Color de ojos: "+ colorDeOjos + "\n"
 				+"Alma: " + alma + "\n"+"Habitan: " + habitar() + "\n"+ "Sienten: " + sentir() + "\n"+ "Color de fuego: " +  colorDeFuego + "\n" + "Poder especial: "+ poderEspecial+ "\n"
 				+"Crear fuego: " + crearFuego() +"\n"+ "Volar por los aires: " + volarPorLosAires() + "\n" + "Detener el tiempo: " + detenerTiempo()+"\n"+ "Arma: " + this.arma +"\n"
-				+ "Tipo: " + this.tipo + "\n"+ "Entrena: " + entrenar() + "\n"+  "Enseña: " + enseñar();
+				+ "Tipo: " + this.tipo + "\n"+ "Entrena: " + entrenar() + "\n"+  "Enseï¿½a: " + enseÃ±ar();
 	}
 
 

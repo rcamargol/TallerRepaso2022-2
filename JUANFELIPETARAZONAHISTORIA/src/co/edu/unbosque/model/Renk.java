@@ -3,13 +3,13 @@ package co.edu.unbosque.model;
 public class Renk extends Desterrados{
 	
 	private boolean esclavo;
-	private int tamaño;
+	private int tamaÃ±o;
 	
 	public Renk(int edad, int estatura, String ojos, boolean alma) {
 		super(edad, estatura, ojos, alma);
 		// TODO Auto-generated constructor stub
 		this.esclavo = false;
-		this.tamaño = 2;
+		this.tamaÃ±o = 2;
 		this.edad = 1500;
 	}
 	
@@ -29,7 +29,7 @@ public class Renk extends Desterrados{
 	
 	public String medir_tam(){
 		
-		if(tamaño == 2) {
+		if(tamaÃ±o == 2) {
 			return " tiene la altura promedio de un desterrado ";
 		}
 		else{
@@ -45,12 +45,12 @@ public class Renk extends Desterrados{
 		this.esclavo = esclavo;
 	}
 
-	public int getTamaño() {
-		return tamaño;
+	public int getTamaÃ±o() {
+		return tamaÃ±o;
 	}
 
-	public void setTamaño(int tamaño) {
-		this.tamaño = tamaño;
+	public void setTamaÃ±o(int tamaÃ±o) {
+		this.tamaÃ±o = tamaÃ±o;
 	}
 	
 	

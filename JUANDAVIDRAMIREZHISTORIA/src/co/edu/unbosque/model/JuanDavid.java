@@ -9,10 +9,10 @@ public class JuanDavid extends Mortales {
 		super.alma= true;
 		super.colorojos= "violeta";
 		super.estatura= 1.81;
-		super.cariñoso= "es un poco cariñoso ";
+		super.cariÃ±oso= "es un poco cariï¿½oso ";
 		super.Liderazgo ="Este mortal pesse un rasgo el cual es el Liderazgo ";
 		this.honestidad="este mosrtal tiene un nivel de honestidad muy alto ";
-		this.nobleza="Este Héroe posse mucha nobleza";
+		this.nobleza="Este Hï¿½roe posse mucha nobleza";
 		
 	}
 	

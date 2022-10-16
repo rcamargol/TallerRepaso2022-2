@@ -12,11 +12,11 @@ public class Kira extends Heroes{
 		super.alma = true;
 		super.nobleza = " un corazon muy noble ";
 		super.liderazgo = " no es una lider innata ";
-		this.seduccion = " engañar a sus pretendientes ";
+		this.seduccion = " engaï¿½ar a sus pretendientes ";
 		this.valentia = " es muy valiente ";
 	}
 
-	public String engañar() {
+	public String enganiar() {
 		return "A kira le gusta " + this.seduccion;
 	}
 	
@@ -54,12 +54,12 @@ public class Kira extends Heroes{
 	@Override
 	public String toString() {
 		return 	"Kira es una heroina" + "\n" +
-				"La edad de Kira es: " + super.edad + " años." + "\n" + 
+				"La edad de Kira es: " + super.edad + " aï¿½os." + "\n" + 
 				"La estatura de Kira es: " + super.estatura + " metros " + "\n" + 
 				"El color de ojos de kira es: " + super.colorDeOjos + "\n" + 
 				"La alma de Kira es: " + super.alma + "\n" + 
 				proteger() + "\n" + 
-				engañar() + "\n" +
+				enganiar() + "\n" +
 				"Kira tiene " + super.nobleza + "\n" +
 				"Kira " + super.liderazgo + "\n" +
 				"Kira como los demas heroes, " + sentir() + "\n" +
