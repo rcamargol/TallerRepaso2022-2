@@ -5,7 +5,7 @@ public class Superman extends Kryptonian implements Flyer{
 	private String colorRayoLaser;
 	
 	public Superman() {
-		super.añosDeVida = 50;
+		super.anosDeVida = 50;
 		super.ropa = "Traje con capa en colores rojo y azul, muy resistente";
 		this.colorRayoLaser = "Rojo";
 	}
@@ -52,7 +52,7 @@ public class Superman extends Kryptonian implements Flyer{
 	@Override
 	public String toString() {
 		
-		return "Superman como todo animal puede comer y tiene aproximadamente 50 años y tambien como todo kryptoniano" + "\n"
+		return "Superman como todo animal puede comer y tiene aproximadamente 50 aï¿½os y tambien como todo kryptoniano" + "\n"
 			 + "utiliza ropa resistente, que en su caso es un traje con capa de color rojo y azul principalmente," + "\n"
 	   	     + "ademas de esto, su caracteristica especial es que puede lanzar un rayo laser de color rojo por medio de sus ojos," + "\n"
 	 	     + "saltar edificios y parar balas.";

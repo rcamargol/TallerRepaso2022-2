@@ -5,7 +5,7 @@ public class Bird extends Animal implements Flyer{
 	private String colorPlumas;
 	
 	public Bird() {
-		super.añosDeVida = 5;
+		super.anosDeVida = 5;
 		this.colorPlumas = "Amarillas";
 	}
 
@@ -55,7 +55,7 @@ public class Bird extends Animal implements Flyer{
 		
 		return "Los pajaros como todos los animales pueden comer y tambien como todos los voladores" + "\n"
 			 + "pueden despegar, volar y aterrizar, pero ademas de esto pueden construir sus propios nidos" + "\n"
-			 + "y poner huevos para reproducirse. Se caracterizan por tener en promedio 5 años de vida y plumas amarillas.";
+			 + "y poner huevos para reproducirse. Se caracterizan por tener en promedio 5 aï¿½os de vida y plumas amarillas.";
 	}
 
 

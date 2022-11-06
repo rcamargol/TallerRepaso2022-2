@@ -2,10 +2,10 @@ package co.edu.unbosque.model;
 
 public abstract class Animal {
 	
-	protected int añosDeVida;
+	protected int anosDeVida;
 	
 	public Animal() {
-		this.añosDeVida = 0;
+		this.anosDeVida = 0;
 	}
 	
 	public abstract String toEat();

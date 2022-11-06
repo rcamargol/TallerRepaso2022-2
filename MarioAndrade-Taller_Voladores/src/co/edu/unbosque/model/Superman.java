@@ -28,7 +28,7 @@ public class Superman extends Kryptonian {
  }
 
 	@Override
-	public String absorber_energía_solar() {
+	public String absorber_energia_solar() {
 		// TODO Auto-generated method stub
 		return " y recarga sus poderes necesita absorbe la energia del sol ";
 	}

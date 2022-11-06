@@ -2,11 +2,11 @@ package co.edu.unbosque.model;
 
 public class helicoptero extends avion{
 	
-	private String aerodinámico;
+	private String aerodinamico;
 	
 	public helicoptero() {
 		super.comodidad="su nivel de comonidad es aceptable";
-		this.aerodinámico="es el vehiculo mas aerodinamico de todos";
+		this.aerodinamico="es el vehiculo mas aerodinamico de todos";
 		
 	}
 	
@@ -45,11 +45,11 @@ public class helicoptero extends avion{
 		// TODO Auto-generated method stub
 		return null;
 	}
-	public String getAerodinámico() {
-		return aerodinámico;
+	public String getAerodinamico() {
+		return aerodinamico;
 	}
-	public void setAerodinámico(String aerodinámico) {
-		this.aerodinámico = aerodinámico;
+	public void setAerodinamico(String aerodinamico) {
+		this.aerodinamico = aerodinamico;
 	}
 
 

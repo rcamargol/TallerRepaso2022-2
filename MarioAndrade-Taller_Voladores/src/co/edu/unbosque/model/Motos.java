@@ -18,7 +18,7 @@ public class Motos {
 	public String mostrarClases(){
 		String m;
 		
-		m = "Hidroavión:"+sp.flotar()+sp.despegue()+"\n"+
+		m = "Hidroaviï¿½n:"+sp.flotar()+sp.despegue()+"\n"+
 				          sp.aterrizar()+sp.volar()+sp.derrapar()+"\n"+
 				          "\n"+
 		    "Helicoptero:"+he.iniciarhelices()+he.despegue()+he.aterrizar()+he.volar()+"\n"+
@@ -29,7 +29,7 @@ public class Motos {
 						  "\n"+
 		    "Superman:"+su.despegue()+su.aterrizar()+su.volar()+"\n"+
 		    		    su.saltarEdificio()+su.paraBala()+su.comer()+"\n"+					  	
-						su.absorber_energía_solar()+"\n";  
+						su.absorber_energia_solar()+"\n";  
 		return m;
 	}
 }

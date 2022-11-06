@@ -6,7 +6,7 @@ public class Helicopter extends Airplane {
 	
 	public Helicopter() {
 		super.gasolina = "jet fuel";
-		super.tamañoDeHelices = 4;
+		super.tamanoDeHelices = 4;
 		this.velocidadMaxima = 278;
 	}
 
@@ -34,7 +34,7 @@ public class Helicopter extends Airplane {
 	public String toString() {
 		return "El helicoptero es uno de los medios de transporte mas importantes, hoy en dia."+"\n"+
 				"Para poder funcionar usan como gasolina "+super.gasolina+"\n"+
-				"Ademas el tamaño de sus helices es de "+super.tamañoDeHelices+" metros."+"\n"+
+				"Ademas el tamaï¿½o de sus helices es de "+super.tamaï¿½oDeHelices+" metros."+"\n"+
 				"La velocidad maxima que puede alcanzar es de "+velocidadMaxima+" km/h."+"\n"+
 				"Usualmente los helicopteros "+toLand()+"\n"+
 				toTakeOff()+" para evitar que empice a dar vueltas."+"\n"+

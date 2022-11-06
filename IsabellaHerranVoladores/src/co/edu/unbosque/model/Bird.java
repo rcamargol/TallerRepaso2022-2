@@ -5,7 +5,7 @@ public class Bird extends Animal implements Flyer{
 	private String colorplumas;
 	
 	public Bird() {
-		super.añosdevida = 5;
+		super.anosdevida = 5;
 		this.colorplumas = "Amarillas";
 	}
 

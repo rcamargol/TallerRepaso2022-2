@@ -1,3 +1,3 @@
-module FerddyRiañoVoladores {
+module FerddyRianoVoladores {
 	requires java.desktop;
 }

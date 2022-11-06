@@ -8,5 +8,5 @@ public abstract class Kryptonian extends Animal{
 		this.Humanoides = Humanoides;
 	
 	}
-	public abstract String absorber_energía_solar();
+	public abstract String absorber_energia_solar();
 }

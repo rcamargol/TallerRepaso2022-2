@@ -6,7 +6,7 @@ public class Superman extends Kryptoniano implements Volador{
 	
 	public Superman() {
 		super.tipoComida="de todo lo que se le atravesara";
-		super.añosdevida=17;
+		super.anosdevida=17;
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class Superman extends Kryptoniano implements Volador{
 
 	@Override
 	public String comer() {
-		return "Superman por tener "+añosdevida+" años estaba en su plena adolecencia por lo cual comia "+tipoComida;
+		return "Superman por tener "+anosdevida+" aï¿½os estaba en su plena adolecencia por lo cual comia "+tipoComida;
 	}
 	
 	public String saltarEdificio() {
@@ -39,7 +39,7 @@ public class Superman extends Kryptoniano implements Volador{
 	}
 	
 	public String pararBala() {
-		return "Superman tiene superpoderes ñeristicos que hasta puede parar una bala";
+		return "Superman tiene superpoderes ï¿½eristicos que hasta puede parar una bala";
 	}
 
 	public String pasarMensaje() {

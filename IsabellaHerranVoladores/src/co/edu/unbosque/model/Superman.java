@@ -5,7 +5,7 @@ public class Superman extends Kryptonian implements Flyer{
 	private String colorrayolaser;
 	
 	public Superman() {
-		super.añosdevida = 50;
+		super.anosdevida = 50;
 		super.ropa = "Traje con capa en colores rojo y azul, muy resistente";
 		this.colorrayolaser = "Rojo";
 	}

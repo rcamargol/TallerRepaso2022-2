@@ -2,11 +2,11 @@ package co.edu.unbosque.model;
 
 public abstract class Airplane extends Vehicle implements Flyer {
 
-	protected double tamañoDeHelices;
+	protected double tamanoDeHelices;
 	
 	public Airplane() {
 		super.gasolina = "";
-		this.tamañoDeHelices = 0.0;
+		this.tamanoDeHelices = 0.0;
 	}
 	
 	@Override
